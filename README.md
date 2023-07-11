@@ -21,7 +21,7 @@ This app is a simple blog site that allows users to create posts, read posts, an
 
 ---
 
-Starter code was provided by edEx bootcamps. I added the most basic things I could figure out and some comments. 
+Starter code was provided by edEx bootcamps. I mostly refactored it and added a little here and there. 
 
 _Other tools utilized:_
 
@@ -35,41 +35,27 @@ mySQL2: https://www.npmjs.com/package/mysql2
 
 Express:https://www.npmjs.com/package/express
 
-Insomnia or another API development system is needed, these may be run in browser or downloaded for the desktop. Here are a few options: 
-
-Hoppscotch: https://hoppscotch.io/
-
-Postman: https://www.postman.com/
-
-Personally I will be using Insomnia: https://insomnia.rest/
 
 ## Installation
 
 ---
 
-There is no official installation but users may need to install an api development software such as Insomnia, though there are browser friendly options listed above. 
+There is no installation required. 
 
 ## Usage
 
 ---
 
-User will need to download the code, change the .env or add the .env to include their own mySQL username and password in order to run the code. User should then navigate to the db directory, open up the mySQL shell, run command 'source schema.sql;', then exit the mySQL shell. Navigate back to root directory of application, run command 'node seeds/index.js' in order to seed the tables with the seeds provided in the seeds folder. 
-
-Once seeding is completed, user should run npm start to begin the app and be able to view it in local host. Open up the API development tool of their choice and enter in 'localhost:3001' then using the routes provided, they should be able to view the various aspects of the json from the seeds. 
-localhost:3001/api/products/
-localhost:3001/api/categories/
-localhost:3001/api/tags/
-By adding the id numbers after the /, the user may also view specific products, tags or categories as well as update or delete them. 
-
-Video that demonstrates full usage: https://drive.google.com/file/d/1KL15dOgBL8GzHQNsiBTEjHg_OOjvS66W/view?usp=sharing
-
-Second video about how to seed the database: https://drive.google.com/file/d/1lkKVZo51aX0ZDK_AjfWKATfM9gejKT5T/view?usp=sharing
-![image of insomnia](/assets/watch%20the%20video%20for%20full%20functionality.png)
+User will want to navigate to https://mvc-tech-bloggy-blog-ad59539acfde.herokuapp.com/ and view the app, click Login in the upper right. They will create a login and be sent to the dashboard page where they can create a post.From there they can click "home" to be shown all posts by users. If logged out, no options for viewing or creating posts appear. 
+![login ability](/assets/login.gif)
+![create post ability](/assets/create%20post.gif)
+![view post ability](/assets/view%20post.gif)
+![delete post ability](/assets/delete%20post.gif)
 
 ## Tests
 ---
 
-I did not write any tests for this thing as the entire exercise itself is a giant test (of patience).
+I did not write any tests for this thing as it was tested as it was built...
 
 
 
@@ -77,7 +63,7 @@ I did not write any tests for this thing as the entire exercise itself is a gian
 ## Bugs
 ---
 
-You might get a "bad request" when updating a product with put request, but it will work anyway. 
+The comments function is broken currently. 
 
 
 ## Questions
@@ -91,7 +77,7 @@ Please refer any questions to: janicajackson@gmail.com
 
 ---
 
-If anyone wishes to contribute to this project, they may find the GitHub repository at https://github.com/JanicaJensen/ecommerce_backend and they are welcome to create a fork.
+If anyone wishes to contribute to this project, they may find the GitHub repository at https://mvc-tech-bloggy-blog-ad59539acfde.herokuapp.com/ and they are welcome to create a fork.
 
 ## License
 
